@@ -139,7 +139,7 @@ float: left;
   margin-right: 10px;
 }
 
-.boxcenter p {
+main p {
   padding: 10px;
   line-height: 30px;
 }
@@ -151,12 +151,11 @@ float: left;
 
 .boxright-1, .boxright-2 {
   border-radius: 5px;
-  height: 100px;
   background-color: white;
-  margin-bottom: 5px;
+  margin-bottom: 10px;
 }
 
 footer {
-  background-color: lightblue;
-  height: 100px;
+  background-color: white;
+ height: 100px;
 }
