@@ -15,6 +15,14 @@ body {
   max-width: 100%;
   margin: 20px auto;
 }
+a {
+  text-decoration: none;
+}
+
+h2 {
+  padding: 20px;
+  color: #676464;
+}
 
 .logo {
   background-image: url('img/natural-header.jpg');
@@ -34,11 +42,31 @@ body {
   text-transform: uppercase;
 }
 
+.pulsanti {
+  background-color: grey;
+  text-align: center;
+}
+
+.pulsanti .menu li {
+  display: inline-block;
+  padding: 0 10px;
+}
+
+.pulsanti .menu li a {
+line-height: 50px;
+font-family: 'Montserrat', sans-serif;
+color: white;
+text-transform: uppercase;
+}
+
+.pulsanti .menu li:hover {
+  background-color: lightgrey;
+}
+
 main {
   height: 400px;
   margin-bottom: 10px;
   padding: 5px;
-
 }
 
 main::after {
@@ -54,16 +82,50 @@ float: left;
 }
 
 .boxleft {
+  border-radius: 5px;
   width: 20%;
   height: 200px;
-  background-color:#E081FF;
+  background-color: white;
   margin-right: 10px;
 }
 
+.org {
+  padding: 2px;
+}
+
+.org::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.org-icon {
+  float: left;
+  width: 20%;
+}
+
+.org-icon i {
+  margin-left: 5px;
+  color: orange;
+  font-size: 30px;
+}
+
+.org-text {
+  float: left;
+  width: 80%;
+  padding: 5px;
+}
+
+.org-text h2 {
+  padding: 0;
+  margin: 0 0 10px;
+}
+
 .boxcenter {
+  border-radius: 5px;
   width: 52%;
   height: 400px;
-  background-color: #800080;
+  background-color: white;
   margin-right: 10px;
 }
 
@@ -72,8 +134,9 @@ float: left;
 }
 
 .boxright-1, .boxright-2 {
+  border-radius: 5px;
   height: 100px;
-  background-color: #E081FF;
+  background-color: white;
   margin-bottom: 5px;
 }
 
