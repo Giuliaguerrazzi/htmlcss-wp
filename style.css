@@ -3,7 +3,7 @@
   padding: 0;
   box-sizing: border-box;
 }
-
+/*Intestazione*/
 body {
   font-family: 'Roboto', sans-serif;
   background-image: url('img/natural-pattern.png');
@@ -63,6 +63,7 @@ text-transform: uppercase;
   background-color: lightgrey;
 }
 
+/*Parte centrale*/
 main {
   height: 400px;
   margin-bottom: 10px;
@@ -81,10 +82,10 @@ main .boxright {
 float: left;
 }
 
+/*sinistra*/
 .boxleft {
   border-radius: 5px;
   width: 20%;
-  height: 200px;
   background-color: white;
   margin-right: 10px;
 }
@@ -121,14 +122,29 @@ float: left;
   margin: 0 0 10px;
 }
 
+.org-text2 li {
+  list-style: none;
+  padding: 5px;
+}
+
+.org-text2 li a {
+  color: #17ab17;
+}
+
+/*centro*/
 .boxcenter {
   border-radius: 5px;
   width: 52%;
-  height: 400px;
   background-color: white;
   margin-right: 10px;
 }
 
+.boxcenter p {
+  padding: 10px;
+  line-height: 30px;
+}
+
+/*destra*/
 .boxright {
   width: 25%;
 }
